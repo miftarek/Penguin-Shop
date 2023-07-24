@@ -7,37 +7,125 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<style>
-    .roboto-font{
-    font-family: 'Roboto', sans-serif;
-    }
-    .bebas-font{
-        font-family: 'Bebas Neue', sans-serif;
-    }
-</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .roboto-font {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bebas-font {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
     <title>Penguin Fashion</title>
 </head>
 
-<body>
+<body class="mx-10">
     <header>
-        <nav>
-
-        </nav>
-        <div class="flex flex-col lg:flex-row justify-around items-center lg:px-32 md:px-16 px-8 pt-10">
+        <nav class="flex flex-col lg:flex-row items-center justify-around mt-5">
             <div class="">
-                <h1 class="text-7xl uppercase bebas-font"> <span class="text-orange-400	">Be the Penguins</span> <br> of Winter </h1>
-                <p class="roboto-font text-base">Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</p>
+                <img class="w-60" src="./icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-5 roboto-font">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex flex-col lg:flex-row justify-around items-center lg:px-32 md:px-16 px-8 pt-10 mx-10">
+            <div class="">
+                <h1 class="text-7xl uppercase bebas-font"> <span class="text-orange-400	">Be the Penguins</span> <br> of
+                    Winter </h1>
+                <p class="roboto-font text-base">Lorem Ipsum is simply dummy text of the printing <br>and typesetting
+                    industry.</p>
                 <button class="roboto-font btn bg-lime-800 text-white px-6 py-3 rounded-md mt-4">Buy Now</button>
             </div>
             <div>
                 <img src="./images/model.png" alt="">
             </div>
         </div>
-        
     </header>
-    <main></main>
+    <main class="max-w-7xl mx-auto">
+        <div>
+            <h2 class="bebas-font text-5xl px-48">Woman Jacket</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- First Jacket -->
+        <div class=" bg-gray-100 p-5 rounded-2xl">
+            <img class="" src="./images/jacket-1.png" alt="">
+            <h3 class="text-2xl font-bold">Yellow Coat Jacket</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+            </p>
+            <div class="flex justify-between items-center">
+                <h2 class="roboto-font text-4xl text-amber-500	">$234</h2>
+                <button class="roboto-font btn bg-lime-800 text-white px-6 py-3 rounded-md mt-4">Buy Now</button>
+            </div>
+        </div>
+        <!-- Second Jacket -->
+        <div class=" bg-gray-100 p-5 rounded-2xl">
+            <img class="" src="./images/jacket-2.png" alt="">
+            <h3 class="text-2xl font-bold">Yellow Coat Jacket</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+            </p>
+            <div class="flex justify-between items-center">
+                <h2 class="roboto-font text-4xl text-amber-500	">$234</h2>
+                <button class="roboto-font btn bg-lime-800 text-white px-6 py-3 rounded-md mt-4">Buy Now</button>
+            </div>
+        </div>
+                <!-- Third Jacket -->
+
+        <div class=" bg-gray-100 p-5 rounded-2xl">
+            <img class="" src="./images/jacket-3.png" alt="">
+            <h3 class="text-2xl font-bold">Yellow Coat Jacket</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+            </p>
+            <div class="flex justify-between items-center">
+                <h2 class="roboto-font text-4xl text-amber-500	">$234</h2>
+                <button class="roboto-font btn bg-lime-800 text-white px-6 py-3 rounded-md mt-4">Buy Now</button>
+            </div>
+        </div>
+        </div>
+        <!-- Features Section -->
+        <section>
+            <div class="flex flex-col lg:flex-row gap-5 my-8">
+                <div class="flex-1">
+                    <div class="flex gap-4 items-center rounded-lg shadow-xl p-3">
+                        <img class="w-20" src="./icons/house.png" alt="">
+                        <div>
+                            <h4 class="text-3xl mb-4 font-roboto">Find the Perfect Fit</h4>
+                            <p class="font-roboto">Everybody is different, which is why we <br> offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-center mt-5 rounded-lg shadow-xl p-3">
+                        <img class="w-20" src="./icons/box.png" alt="">
+                        <div>
+                            <h4 class="text-3xl mb-4 font-roboto">Find the Perfect Fit</h4>
+                            <p class="font-roboto">Everybody is different, which is why we <br> offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-center mt-5 rounded-lg shadow-xl p-3">
+                        <img class="w-20" src="./icons/question.png" alt="">
+                        <div>
+                            <h4 class="text-3xl mb-4 font-roboto">Find the Perfect Fit</h4>
+                            <p class="font-roboto">Everybody is different, which is why we <br> offer styles for every body.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="w-full md:w-full lg:w-1/2" src="./images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
